@@ -4,10 +4,12 @@
   <title>SikBkmm</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<%= render 'shared/navigation' %>
+<br>
 <%= yield %>
 
 </body>

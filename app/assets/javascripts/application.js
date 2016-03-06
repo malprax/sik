@@ -11,6 +11,18 @@
 // about supported directives.
 //
 //= require jquery
+//= require tether
+//= require bootstrap-sprockets
 //= require jquery_ujs
+//= require jquery_nested_form
+//= require chosen-jquery
+//= require jquery-ui
+
+//= require ckeditor/override
+//= require ckeditor/init
+//= require bootstrap-wysihtml5
+//= require bootstrap-datepicker
+//= require message_flash
+//= require lightbox-bootstrap
 //= require turbolinks
 //= require_tree .
