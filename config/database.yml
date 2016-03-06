@@ -79,7 +79,7 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: sik_bkmm_production
-  username: sik_bkmm
-  password: <%= ENV['SIK_BKMM_DATABASE_PASSWORD'] %>
+  # <<: *default
+  # database: sik_bkmm_production
+  # username: sik_bkmm
+  # password: <%= ENV['SIK_BKMM_DATABASE_PASSWORD'] %>
